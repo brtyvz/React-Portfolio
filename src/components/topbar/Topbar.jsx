@@ -1,5 +1,5 @@
 import "./topbar.scss"
-import { FiMail } from "react-icons/fi";
+import { FiMail,FiLinkedin,FiGithub} from "react-icons/fi";
 export default function Topbar({menuOpen,setMenuOpen}) {
   return (
     // menuOpen true ise aktif oluyo
@@ -8,13 +8,23 @@ export default function Topbar({menuOpen,setMenuOpen}) {
 <div className="left">
 {/* logo is here */}
 
-<a href="#intro" className="logo">brtyvz</a>
+<a href="#intro" className="logo">Berat Yavuz</a>
 
 
 <div className="itemContainer">
 
 <FiMail className="icon"/>
 <span>beratttyavuzz@gmail.com</span>
+
+<a href="https://www.linkedin.com/in/berat-yavuz/" target="_blank" className="link">
+<FiLinkedin className="icon"/>
+</a>
+
+<a href="https://github.com/brtyvz" target="_blank" className="link">
+<FiGithub className="icon"/>
+</a>
+
+
 </div>
 
 </div>

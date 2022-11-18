@@ -6,7 +6,7 @@ export default function Contact() {
     <div className='contact'id="contact">
         
         <div className="left">
-          <h1>left</h1>
+         <img src = "assets/shake.svg"/>
         </div>
 
         <div className="right">
