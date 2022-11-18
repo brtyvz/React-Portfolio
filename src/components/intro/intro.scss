@@ -1,5 +1,5 @@
 .intro{
-    background-color: white;
+    background-color: rgba(230,233,238,255);
 
     display: flex;
 
@@ -8,16 +8,19 @@
         overflow: hidden;
 
         .imgContainer{
-            width: 300;
-            height: 300;
-            background-color: aquamarine;
+            width: 220px;
+            height: 270px;
+            background-color: white;
             border-radius: 50%;
            display: flex;
-           align-items: flex-end;
-           justify-content: center; 
+           align-items: flex-start;
+           justify-content: flex-end; 
            float: right;
+           margin-top: 220px;
+           margin-right: 50px;
+           
             .img{
-                height:90%;
+                height:200px;
             }
         }
      

@@ -1,48 +1,43 @@
+
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "Cyrpto App",
+      img:"https://i.ibb.co/ZKWPnjb/Screen-Shot-2022-11-18-at-14-16-56.png",
+      link : "https://github.com/brtyvz/CryptoApp"
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "Pokedex and Countries",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "https://i.ibb.co/kmKKXb9/Untitled.png",
+      link : "https://github.com/brtyvz/GraphQlSwiftUI"
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
+      title: "Money Tracker App",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "https://i.ibb.co/kSmB2x5/Screen-Shot-2022-11-15-at-21-43-24.png",
+      link : "https://github.com/brtyvz/MoneyTracker"
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "IMDB Movie App",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "https://i.ibb.co/41pzCzm/Screen-Shot-2022-11-15-at-21-54-53.png",
+      link : "https://github.com/enverygtlr/Movies"
     },
     {
-      id: 5,
-      title: "Hero Web Design",
-      img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      id: 1,
+      title: "Twitter Design",
+      img: "https://i.ibb.co/B6YtgDp/Screen-Shot-2022-11-16-at-14-37-53.png",
+      link : "https://github.com/brtyvz/twitter-clone"
     },
-    {
-      id: 6,
-      title: "Banking App",
-      img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
-    },
+    
   ];
   
   export const webPortfolio = [
-    {
-      id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
+   
     {
       id: 2,
       title: "Web Rampa UI Design",
@@ -73,9 +68,9 @@ export const featuredPortfolio = [
   export const mobilePortfolio = [
     {
       id: 1,
-      title: "Mobile Social Media App",
+      title: "Cyripto App",
       img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+        "man.png",
     },
     {
       id: 2,
@@ -151,38 +146,38 @@ export const featuredPortfolio = [
   export const contentPortfolio = [
     {
       id: 1,
-      title: "Content Social Media App",
+      title: "Concurrency",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://i.ibb.co/djQ4t8Z/Screen-Shot-2022-11-18-at-15-02-30.png",
+      link:"https://drive.google.com/file/d/1JTcPwpEIKzTtdMd8AT188YzPGdMLRlvf/view",
     },
     {
       id: 2,
-      title: "Content Rampa UI Design",
+      title: "Objects&Data Structers",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://i.ibb.co/k91nHxG/Screen-Shot-2022-11-18-at-15-08-09.png",
+        link:"https://drive.google.com/file/d/14ZdEywojimI1UBVillfUFTtpSF4EI6In/view",
     },
     {
       id: 3,
-      title: "Content E-commerce Web Design",
+      title: "Emergence",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+       "https://i.ibb.co/pZk5NPv/Screen-Shot-2022-11-18-at-15-07-23.png",
+       link:"https://drive.google.com/file/d/1H_-Tn8_cFruVmcr72n0QsD3y7gkwyXh7/view",
     },
     {
       id: 4,
-      title: "Content Relax Mobile App",
+      title: "Swift Unit Test",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://i.ibb.co/Bjh9F7P/Screen-Shot-2022-11-18-at-15-08-42.png",
+        link:"https://drive.google.com/file/d/1Zf3JRxUxfreX_8eF8UwwsUqPuKZN7UdN/view",
     },
     {
       id: 5,
-      title: "Content Keser Web Design",
+      title: "Formatting",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://i.ibb.co/syW0DGV/Screen-Shot-2022-11-18-at-15-09-13.png",
+        link:"https://drive.google.com/file/d/1-5K35Zg-cVJJ3JBrfHd2U12eq4H45qEV/view",
     },
-    {
-      id: 6,
-      title: "Content Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
+    
   ];

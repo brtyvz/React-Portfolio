@@ -7,14 +7,14 @@ const textRef = useRef();
   //sadece bir defa çalışacak
   useEffect(()=>{
     const myElement = document.querySelector('#myElement')
-      init(textRef.current, { showCursor: true,backDelay:1500,backSpeed:60, strings: ['React.js', 'Swift' ] })
+      init(textRef.current, { showCursor: true,backDelay:1500,backSpeed:60, strings: ['React.js', 'iOS' ] })
   },[])
   return (
     <div className="intro" id="intro">
 <div className="left">
   <div className="imgContainer">
 
-     <img src="assets/man.png"alt=""></img> 
+     <img src="assets/berat.png"alt=""></img> 
 
   </div>
 </div>

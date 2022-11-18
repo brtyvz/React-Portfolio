@@ -12,24 +12,14 @@ export default function Portfolio() {
       id: "featured",
       title: "Featured",
     },
-    {
-      id: "web",
-      title: "Web App",
-    },
-    {
-      id: "mobile",
-      title: "Mobile App",
-    },
-    {
-      id: "design",
-      title: "Design",
-    },
+    // {
+    //   id: "slides",
+    //   title: "Slides",
+    // },
     {
       id: "content",
-      title: "Content",
+      title: "Slides",
     },
-
-
   ];
 
 
@@ -77,15 +67,19 @@ setData(featuredPortfolio);
 <h1>Portfolio</h1>
 <ul>
 
-{list.map((item) => (<PortfolioList id={item.id} active={selected===item.id} setSelected ={setSelected} title={item.title}/>))}
+{list.map((item) => (<PortfolioList id={item.id} active={selected===item.id} setSelected ={setSelected} title={item.title} link={item.link}/>))}
 
 </ul>
 <div className="container">
 {data.map(d=>(
-<div className="item">
+<div>
+
+<a  href={d.link} target="_blank" className="item" >
+
 <img src={d.img} alt=""/>
 
 <h3>{d.title}</h3>
+</a>
 
 </div>
 
