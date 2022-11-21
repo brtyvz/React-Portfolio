@@ -83,10 +83,21 @@
     border-radius: 7px;
   }
   
-  button {
+  button:enabled {
     border: none;
     padding: 15px;
     background-color: darkslateblue;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 20%;
+  }
+
+  button:disabled {
+    border: none;
+    padding: 15px;
+    background-color: gray;
     color: white;
     font-weight: 500;
     cursor: pointer;
